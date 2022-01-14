@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <script src="index.js"></script>
+    <meta charset="utf-8" />
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="center">
+      <h1>Login</h1>
+      <form>
+        <div class = "up">
+          <label>Username</label>
+          <input id="usr" type="text"/>
+          <span></span>
+        </div>
+        <div class = "up">
+          <label>Password</label>
+          <input id="psw" type="password" />
+          <span></span>
+        </div>
+      </form>
+      <input
+        type="submit"
+        value="Login"
+        onclick="checkUsernamePassword(usr.value, psw.value)"
+      />
+   
+  </body>
+</html>
